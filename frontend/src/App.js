@@ -6,7 +6,7 @@ import Homepage from './components/homepage'
 import Signup from './components/signup'
 import Login from './components/login'
 
-export const App = () => {
+const App = () => {
   const [loggedIn, setLoggedIn] = useState(false)
   const [username, setUsername] = useState('')
   const navigate = useNavigate()
